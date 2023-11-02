@@ -15,17 +15,19 @@
   </head>
   <body>
     <main id="main-page">
-      <section id="user-controls">
+      <section id="user-profiles">
         <a class="btn" href="/new-user">Add a New User</a>
       </section>
       <section id="user-profiles">
         <ul>
+          <% for (const user of users) {%>
           <li>
             <article>
-              <img src="" alt="image of the user" />
-              <h2>User Name</h2>
+              <img src="<%= user.imagePath %>" alt="image of the user" />
+              <h2><%= user.name %></h2>
             </article>
           </li>
+          <% } %>
         </ul>
       </section>
     </main>
