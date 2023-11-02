@@ -40,3 +40,8 @@ input{
 .btn a{
     text-decoration: none;
 }
+
+.btn:hover {
+    background-color:rgb(85, 197, 85);
+    text-decoration: none;
+}
