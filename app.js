@@ -15,7 +15,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.urlencoded({ extended: true })); //parsing incoming request bodies
 
 app.use(express.static("public"));
-app.use(express.static("images"));
+app.use("/images", express.static("images"));
 
 app.use(userRoutes);
 
