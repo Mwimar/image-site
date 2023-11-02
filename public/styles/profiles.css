@@ -45,3 +45,9 @@ input{
     background-color:rgb(85, 197, 85);
     text-decoration: none;
 }
+#image-preview {
+    display: none;
+    width:2.5rem;
+    height:2.4rem;
+    object-fit: cover;
+}
