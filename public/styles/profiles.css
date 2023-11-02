@@ -35,4 +35,8 @@ input{
     font:inherit;
     color:white;
     border-radius:4px;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
 }
